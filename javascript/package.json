@@ -1,0 +1,19 @@
+{
+  "name": "alchemy-nodejs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "format": "prettier --write '**/*.{html,js,json,md,ts}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-sdk": "latest"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
+}
